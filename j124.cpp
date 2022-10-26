@@ -36,7 +36,8 @@ const vector<string> split(const string &str, const char &delimiter) { //字串�
 int main(){
     #ifdef input
     string st;
-    cin>>st;
+    getline(cin,st);
+    //cin>>st;
     //cout<<st<<endl<<endl;
     vector<string>TEMP=split(st,' ');
     #endif
@@ -97,5 +98,5 @@ Sample Input                                            Sample Output
 2 6 0 8 14 0 0 0 10 0 4 0 0                             26
 
 5 2 10 0 0 0 8 0 0 17 0 0 0                             26
-
+===========================================================================================================
 */
